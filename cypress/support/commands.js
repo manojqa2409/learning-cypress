@@ -108,8 +108,8 @@ function waitForStatusUpdate(selector, timeout = 10000) {
           method: 'POST',
           url: 'http://localhost:8081/login', // Adjust the URL to your login endpoint
           body: {
-              "username":"manoj.kumar@logiwaste.se",
-              "password":"M@noj!23$"
+              "username":"manoj.kumar@gmail.com",
+              "password":"@@@"
           }
         }).then((response) => {
           // Assuming the JSESSIONID is in the response cookies
