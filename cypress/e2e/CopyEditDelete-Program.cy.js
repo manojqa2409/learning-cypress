@@ -6,9 +6,9 @@ describe('template spec', () => {
         return false; // Handle uncaught exception
     })
  
-    /* ==== Test Created with Cypress Studio ==== */
+   
     it('Settings-Program-CURD', function() {
-      /* ==== Generated with Cypress Studio ==== */
+    
       cy.visit('http://localhost:8081/gui');
 
       cy.wait(5000)
